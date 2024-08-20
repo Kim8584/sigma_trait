@@ -18,11 +18,16 @@ In other words, `sigma(i)` returns the new position of the element at index `i` 
 
 Given the original list `[1, 2, 3, 4, 5]`, the permuted list is `[2, 3, 4, 5, 1]`. The $$\sigma$$ function can be used to map indices between the two lists:
 
-- `$$\sigma(0) = 4$$ (the element at index 0 in the original list is at index 4 in the permuted list)
-- `$$\sigma(1) = 0$$ (the element at index 1 in the original list is at index 0 in the permuted list)
-- `$$\sigma(2) = 1$$ (the element at index 2 in the original list is at index 1 in the permuted list)
-- `$$\sigma(3) = 2$$ (the element at index 3 in the original list is at index 2 in the permuted list)
-- `$$\sigma(4) = 3 $$ (the element at index 4 in the original list is at index 3 in the permuted list)
+$$\sigma(0) = 4$$
+(the element at index 0 in the original list is at index 4 in the permuted list)
+$$\sigma(1) = 0$$
+(the element at index 1 in the original list is at index 0 in the permuted list)
+$$\sigma(2) = 1$$
+(the element at index 2 in the original list is at index 1 in the permuted list)
+$$\sigma(3) = 2$$
+(the element at index 3 in the original list is at index 2 in the permuted list)
+$$\sigma(4) = 3 $$
+(the element at index 4 in the original list is at index 3 in the permuted list)
 
 ## Code
 
